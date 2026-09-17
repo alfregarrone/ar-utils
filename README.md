@@ -2,7 +2,7 @@
 
 > Las validaciones y formatos argentinos que todos reescribimos en cada proyecto: CUIT/CUIL, CBU y alias, pesos, DNI, teléfonos y fechas. Cero dependencias, TypeScript, ESM + CJS.
 
-[![CI](https://github.com/alfredogarrone/ar-utils/actions/workflows/ci.yml/badge.svg)](https://github.com/alfredogarrone/ar-utils/actions)
+[![CI](https://github.com/alfregarrone/ar-utils/actions/workflows/ci.yml/badge.svg)](https://github.com/alfregarrone/ar-utils/actions)
 [![npm](https://img.shields.io/npm/v/ar-utils.svg)](https://www.npmjs.com/package/ar-utils)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
@@ -96,4 +96,4 @@ npm run build     # tsup → ESM + CJS + .d.ts
 
 ## Licencia
 
-MIT © [Alfredo Garrone](https://github.com/alfredogarrone) — construido en [CORX](https://corxargentina.com).
+MIT © [Alfredo Garrone](https://github.com/alfregarrone) — construido en [CORX](https://corxargentina.com).
