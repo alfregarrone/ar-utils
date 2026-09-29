@@ -1,3 +1,5 @@
+<img src="docs/social.png" alt="ar-utils" width="100%">
+
 # ar-utils
 
 > Las validaciones y formatos argentinos que todos reescribimos en cada proyecto: CUIT/CUIL, CBU y alias, pesos, DNI, teléfonos y fechas. Cero dependencias, TypeScript, ESM + CJS.
@@ -90,9 +92,20 @@ parseArDate('03/04/2026');           // 3 de abril, no 4 de marzo
 ```bash
 npm install
 npm test          # vitest
+npm run coverage  # umbrales: 90% líneas, 85% ramas
 npm run typecheck
 npm run build     # tsup → ESM + CJS + .d.ts
 ```
+
+El CI corre tests, typecheck, cobertura y build en Node 18, 20 y 22, y CodeQL sobre cada
+push a `main`. La cobertura hoy está en 99% de líneas y 95% de ramas; el CI falla si baja
+de los umbrales.
+
+## Contribuir
+
+Las validaciones argentinas que faltan salen de casos reales — si te topaste con una,
+abrí un issue. [CONTRIBUTING.md](CONTRIBUTING.md) tiene el flujo y lo que se espera de
+una función nueva.
 
 ## Licencia
 
